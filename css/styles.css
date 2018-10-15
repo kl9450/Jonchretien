@@ -2,9 +2,9 @@ html,body{
   background-color: black;
   border-top: 13px solid #3a3a3a;
   font-style: normal;
-  font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
-  font-size: 34px;
-  line height: 1.5;
+  font-family: serif;
+  font-size: 40px;
+  /* line height: 1.5; */
   padding: 40px;
   text-align: center;
   color:white;
@@ -31,16 +31,16 @@ html,body{
     src: url(/fonts/vollkorn-bold.woff2) format("woff2"),url(/fonts/vollkorn-bold.woff) format("woff")
 }
 .heading{
-  font-size: 30;
+  font-size: 20;
 }
 h1,h2 {
     /* color: #fff; */
-    font-size: 38px;
-    font-weight:bold;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 h3 {
-    font-weight: 400;
+    font-weight: normal;
     font-size: 0.8em;
 }
 
@@ -74,6 +74,7 @@ a:hover{
   border-top-style:double;
   border-bottom-width:4px;
   border-bottom-style:double;
+  color:grey;
 }
 a>img {
     //:hidden;transition: opacity .3s linear;
@@ -174,4 +175,20 @@ h3 {
     font-weight: 400;
     line-height: 1.3;
     padding: 0 32px
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+.footer{
+  font-size: 21px;
 }
