@@ -108,9 +108,8 @@
       .grid_container_2{
         display: grid;
         width: 100%;
-        /* grid-template-columns: ; */
-        grid-template-rows: auto auto auto auto auto;
-        /* grid-gap: 20px; */
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
       }
       .test {
           border-bottom: 4px double #333;
