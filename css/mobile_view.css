@@ -152,7 +152,12 @@
     a>img:hover {
         opacity: .65;
     }
-
+    .left{
+      align:left;
+    }
+    .right{
+      align:right;
+    }
     .container {
         margin: 0 auto;
         max-width: 1240px;
