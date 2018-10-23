@@ -58,11 +58,12 @@ html,body{
   .baby{
     border-radius: 50%;
   }
+
   a:link{
     color:yellow;
     text-decoration: none;
   }
-  a:visited{
+  a:focus{
     color:brown;
     text-decoration: none;
   }
